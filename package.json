@@ -7,6 +7,7 @@
     "lint": "npm run lint-eslint && npm run lint-stylelint",
     "lint-eslint": "eslint -c .eslintrc.js --ext .ts,.tsx,.js src",
     "lint-stylelint": "stylelint --config .stylelintrc.js src/**/*.{less,css,scss}",
+    "commit": "git-cz",
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +28,11 @@
       "prettier --write"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -46,8 +52,13 @@
   "devDependencies": {
     "@commitlint/cli": "19.2.0",
     "@commitlint/config-conventional": "19.1.0",
+    "commitizen": "4.3.0",
+    "commitlint-config-cz": "0.13.3",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "7.0.0",
     "eslint": "8.0.1",
     "husky": "9.0.11",
-    "lint-staged": "15.2.2"
+    "lint-staged": "15.2.2",
+    "typescript": "5.4.2"
   }
 }

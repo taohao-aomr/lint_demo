@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['@commitlint/config-conventional'],
+	extends: ['cz'],
 	rules: {
 		'type-enum': [
 			2,

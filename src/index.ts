@@ -1,6 +1,6 @@
-var add = (a,b)=>{
+var add = (a: number, b:number) => {
     console.log(a, b);
-    return a+b
+    return a + b
 }
 
 export default add
