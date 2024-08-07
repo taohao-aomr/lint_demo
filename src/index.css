@@ -1,0 +1,10 @@
+div {
+    color: aqua;
+    display: block;
+    background-color: black;
+    
+    .child {
+       width: 12px; 
+    }
+
+}
