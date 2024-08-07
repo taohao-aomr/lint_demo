@@ -1,6 +1,6 @@
 div {
-    color: aqua;
     display: block;
+    color: aqua;
     background-color: black;
     
     .child {
